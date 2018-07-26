@@ -3,7 +3,7 @@ package Module8;
 public class Greetings2 {
 	
 	 String[] greetings= {"Hello","Hi!","Good"};
-	public  void printGreetings(int i) throws Exception{
+	public  void printGreetings(int i) throws Exception{ //add throws Exception, so need to be inside try catch                                                                      
 		System.out.println(greetings[i]);
 	}
 

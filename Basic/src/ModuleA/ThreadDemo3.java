@@ -10,7 +10,7 @@ public class ThreadDemo3 extends Thread {
 		}
 	}
 	public static void main(String[] args) {
-		 new ThreadDemo3("Thread 1").start();
+		 new ThreadDemo3("Thread 1").start(); // .start() after new
 		
 	
 		 new ThreadDemo3("Thread 2").start();

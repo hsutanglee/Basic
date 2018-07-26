@@ -11,9 +11,10 @@ public class HashMapDemo {
 		tel.put("Mary","0938312455");
 		tel.put("Jean","0938312666");
 		String tel1=tel.get("Mary");
-		System.out.println(tel1);
 		
-		for(String key:tel.keySet())
+		System.out.println("from key 'Marry' to get value of "+tel1);
+		
+		for(String key:tel.keySet())//key can k or any other var. same as below val
 			System.out.println(key+","+tel.get(key));
 		
 		for(String val:tel.values())

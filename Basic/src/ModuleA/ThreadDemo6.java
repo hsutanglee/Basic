@@ -6,7 +6,7 @@ public class ThreadDemo6 extends Thread {
 	}
 
 	public static void main(String[] args) {
-		ThreadDemo6 t1= new ThreadDemo6("Thread 1") {
+		ThreadDemo6 t1= new ThreadDemo6("Thread 1") { // anonymous class
 			public void run() {// method is inserted after new object, if one time method.
 				for(int i=0;i<100;i++) {
 					System.out.println(getName()+":Number "+i);

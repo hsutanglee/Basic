@@ -9,8 +9,11 @@ public class ArrayListDemo {
 		
 		List <Integer> list = new ArrayList<>();
 
-		list.add(new Integer(12));
+		
 		list.add(34);
+		list.add(34);// List is with order so allow duplicate
+		list.add(34);
+		list.add(new Integer(12));
 		
 		System.out.println("contents:"+list);
 		System.out.println("size:"+list.size());

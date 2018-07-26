@@ -16,7 +16,7 @@ class Greetings {
 		// TODO Auto-generated method stub
 		String[] greetings= {"Hello","Hi!","Good"};
 		try {
-		for(int i=0;i<4;i++) {
+		for(int i=0;i<3;i++) {
 			System.out.println(greetings[i]);
 		}
 		}catch(ArrayIndexOutOfBoundsException e) {

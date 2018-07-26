@@ -1,6 +1,6 @@
 package ModuleA;
 
-public class ThreadDemo5 {  // nested calss practice
+public class ThreadDemo5 {  // "nested calss" practice
 	public ThreadDemo5(String name) { // constructor to get parameter and execute myThread
 		new myThread(name).start();
 		

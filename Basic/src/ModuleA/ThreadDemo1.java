@@ -10,6 +10,7 @@ public class ThreadDemo1 extends Thread {
 		ThreadDemo1 t1= new ThreadDemo1();
 		t1.setName("Thread 1");
 		t1.start();
+		
 		ThreadDemo1 t2= new ThreadDemo1();
 		t2.setName("Thread 2");
 		t2.start();
